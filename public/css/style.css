@@ -1,0 +1,94 @@
+/* Header Styles */
+header {
+    position: relative;
+    height: 50vh; /* Tinggi header default */
+    width: 100%; /* Pastikan lebar header penuh */
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Styling untuk video agar memenuhi seluruh header */
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 50vh; /* Tinggi video mengikuti tinggi header */
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover; /* Menjaga aspek rasio video */
+}
+
+/* Ukuran font untuk judul */
+h1 {
+    font-size: 4rem; /* Ukuran font yang lebih besar untuk judul */
+    margin: 0; /* Menghapus margin default */
+}
+
+/* Ukuran font untuk deskripsi */
+p {
+    font-size: 1.75rem; /* Ukuran font yang lebih besar untuk deskripsi */
+    margin: 0; /* Menghapus margin default */
+}
+
+/* Swiper Styles */
+.swiper {
+    width: auto;
+    height: auto;
+}
+.pantai{
+height: 300px;
+width: auto;
+}
+.my-6 {
+    margin-top: 4rem; /* 64px */
+    margin-bottom: 4rem;
+}
+
+.my-7 {
+    margin-top: 5rem; /* 80px */
+    margin-bottom: 5rem;
+}
+
+/* Media Queries untuk Responsivitas */
+@media (max-width: 768px) {
+    header {
+        height: 30vh; /* Mengurangi tinggi header pada perangkat kecil */
+    }
+
+    header video {
+        height: 30vh; /* Mengurangi tinggi video pada perangkat kecil */
+    }
+
+    h1 {
+        font-size: 3rem; /* Ukuran font lebih kecil untuk perangkat kecil */
+    }
+
+    p {
+        font-size: 1.25rem; /* Ukuran font lebih kecil untuk deskripsi pada perangkat kecil */
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        height: 20vh; /* Mengurangi tinggi header lebih lanjut pada perangkat sangat kecil */
+    }
+
+    header video {
+        height: 20vh; /* Mengurangi tinggi video pada perangkat sangat kecil */
+    }
+
+    h1 {
+        font-size: 2rem; /* Ukuran font lebih kecil untuk perangkat sangat kecil */
+    }
+
+    p {
+        font-size: 1rem; /* Ukuran font lebih kecil untuk deskripsi pada perangkat sangat kecil */
+    }
+}
