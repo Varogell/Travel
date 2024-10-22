@@ -29,23 +29,30 @@
 
     <section class="container my-7" id="packages">
     
-    <div class=row>
-
-        <div class="col"> 
-            <img class="pantai" src="{{asset('/image/pantai.jpeg')}}" alt="">
-           
+        <div class="row" style="height: 60vh;">
+            <!-- Kolom Gambar -->
+            <div class="col-6 p-0">
+                <img class="img-fluid w-100 h-100" src="{{asset('/image/1.jpg')}}" alt="Pantai" style="object-fit: cover;">
+            </div>
+        
+            <!-- Kolom Keterangan -->
+            <div class="col-6 d-flex justify-content-center align-items-center bg-section">
+                <div class="text-center ">
+                    <h2 class="mb-4">Explore Bromo</h2>
+                    <h5>
+                        Perjalanan wisata profesional yang berfokus pada penyediaan pengalaman tak terlupakan di kawasan Gunung Bromo dan sekitarnya. 
+                        Kami berdedikasi untuk menghadirkan kenyamanan dan petualangan seru bagi wisatawan domestik maupun mancanegara, 
+                        dengan berbagai paket wisata yang dirancang khusus untuk memenuhi kebutuhan dan keinginan pelanggan.
+                    </h5>
+                </div>
+            </div>
         </div>
-        <div class="col"> 
-            <h2 class="text-center mb-4">Our Services</h2>
-            <h5> jdksgfhjhgfjhag</h5>
-        </div>
-    </div>
         
     </section>
 
     <!-- Services Section -->
-   <section class="container my-7" id="packages">
-        <h2 class="text-center mb-4">Popular Travel Packages</h2>
+    <section class="container my-7" id="packages">
+        <h2 class="text-center mb-4">Popular destinations</h2>
         <div class="swiper">
             <!-- Swiper Wrapper -->
             <div class="swiper-wrapper">
@@ -54,7 +61,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Bali Tour">
+                                <img src="{{asset('/image/Bali.jpeg')}}" class="card-img-top" alt="Bali Tour">
                                 <div class="card-body">
                                     <h5 class="card-title">Bali Beach Tour</h5>
                                     <p class="card-text">Discover the beautiful beaches of Bali in a 5-day tour.</p>
@@ -64,7 +71,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Bromo Tour">
+                                <img src="{{asset('/image/2.jpg')}}" class="card-img-top" alt="Bromo Tour">
                                 <div class="card-body">
                                     <h5 class="card-title">Bromo Sunrise Tour</h5>
                                     <p class="card-text">Experience the breathtaking sunrise view from Mount Bromo.</p>
@@ -74,7 +81,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Ijen Tour">
+                                <img src="{{asset('/image/Ijen.jpeg')}}" class="card-img-top" alt="Ijen Tour">
                                 <div class="card-body">
                                     <h5 class="card-title">Ijen Crater Tour</h5>
                                     <p class="card-text">Join us for an adventurous trip to the Ijen Crater.</p>
@@ -90,19 +97,19 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Paris Tour">
+                                <img src="{{asset('/image/4.jpg')}}" class="card-img-top img-custom" alt="Paris Tour">
                                 <div class="card-body">
-                                    <h5 class="card-title">Paris City Tour</h5>
+                                    <h5 class="card-title">Tumpak Sewu Tourism</h5>
                                     <p class="card-text">Experience the charm of Paris with a 3-day city tour.</p>
                                     <a href="https://api.whatsapp.com/send/?phone=6282335910784&text&type=phone_number&app_absent=0" class="btn btn-primary">Book Now</a>
                                 </div>
-                            </div>
+                            </div>                            
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Japan Tour">
+                                <img src="{{asset('/image/JTP.jpeg')}}" class="card-img-top" alt="Japan Tour">
                                 <div class="card-body">
-                                    <h5 class="card-title">Japan Cherry Blossom Tour</h5>
+                                    <h5 class="card-title">Malang city tour</h5>
                                     <p class="card-text">Enjoy the cherry blossoms in Japan with a 7-day tour.</p>
                                     <a href="https://api.whatsapp.com/send/?phone=6282335910784&text&type=phone_number&app_absent=0" class="btn btn-primary">Book Now</a>
                                 </div>
@@ -110,9 +117,9 @@
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Sydney Tour">
+                                <img src="{{asset('/image/Pantai Malang.jpeg')}}" class="card-img-top" alt="Sydney Tour">
                                 <div class="card-body">
-                                    <h5 class="card-title">Sydney Opera House Tour</h5>
+                                    <h5 class="card-title">Malang beach tourism</h5>
                                     <p class="card-text">Explore the beauty of Sydney with an exclusive tour of the Opera House.</p>
                                     <a href="https://api.whatsapp.com/send/?phone=6282335910784&text&type=phone_number&app_absent=0" class="btn btn-primary">Book Now</a>
                                 </div>
@@ -121,15 +128,15 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Pagination -->
-            <div class="swiper-pagination "></div>
-
-            <!-- Navigation buttons -->
-            <div class="swiper-button-prev d-none d-md-block"></div>
-            <div class="swiper-button-next d-none d-md-block"></div>
-        </div>
-    </section>
+    
+    <style>
+        .fixed-img {
+            width: 100%;         /* Gambar mengisi penuh lebar kartu */
+            height: 400px;        /* Atur tinggi gambar agar seragam */
+            object-fit: cover;    /* Memastikan gambar tetap proporsional dan tidak terdistorsi */
+        }
+    </style>
+    
 
     <section class="container my-7" id="packages">
     
@@ -243,7 +250,7 @@
     
 
     <!-- Footer Section -->
-    <footer class="bg-warning text-white py-4">
+    <footer class="bg-black text-white py-4">
     <div class="container">
         <div class="row">
             <!-- About Section -->
@@ -267,10 +274,8 @@
             <div class="col-md-4 mb-3">
                 <h5>Follow Us</h5>
                 <div class="d-flex">
-                    <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
-                    <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-tiktok fa-2x"></i></a>
                     <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
-                    <a href="#" class="text-white"><i class="fab fa-linkedin fa-2x"></i></a>
                 </div>
             </div>
         </div>
@@ -278,7 +283,7 @@
 
     <!-- Copyright Section -->
     <div class="bg-secondary text-center py-2">
-        <p class="mb-0">&copy; 2024 Travel Agency. All rights reserved.</p>
+        <p class="mb-0">&copy; 2024 Travel Agency. DREAM JOURNEY.</p>
     </div>
 </footer>
 
