@@ -128,12 +128,13 @@
                         </div>
                     </div>
                 </div>
-                 <!-- Navigation buttons -->
+                 
+            </div>
+            <!-- Navigation buttons -->
             <div class="swiper-button-prev "></div>
             <div class="swiper-button-next "></div>
-            </div>
-            
-</section>
+        </div>   
+    </section>
 
     <section class="container my-7" id="packages">
         <h2 class="text-center mb-4">Our Services</h2>
