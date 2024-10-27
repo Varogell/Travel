@@ -128,16 +128,12 @@
                         </div>
                     </div>
                 </div>
+                 <!-- Navigation buttons -->
+            <div class="swiper-button-prev "></div>
+            <div class="swiper-button-next "></div>
             </div>
-    
-    <style>
-        .fixed-img {
-            width: 100%;         /* Gambar mengisi penuh lebar kartu */
-            height: 400px;        /* Atur tinggi gambar agar seragam */
-            object-fit: cover;    /* Memastikan gambar tetap proporsional dan tidak terdistorsi */
-        }
-    </style>
-    
+            
+</section>
 
     <section class="container my-7" id="packages">
         <h2 class="text-center mb-4">Our Services</h2>
@@ -183,6 +179,8 @@
 </div>
 
 </div>
+
+
 
 
         
@@ -259,8 +257,13 @@
     </section>
     
 
+<<<<<<< HEAD
     <!-- Footer Section -->
     <footer class="bg-lightblue text-black py-4">
+=======
+<!-- Footer Section -->
+<footer class="bg-black text-white w-100">
+>>>>>>> 55cdf74986c45ad1185a80a0dac39b57fcf5d023
     <div class="container">
         <div class="row">
             <!-- About Section -->
@@ -304,6 +307,7 @@
         <p class="mb-0">&copy; 2024 Travel Agency. TRAVELING.</p>
     </div>
 </footer>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <script>

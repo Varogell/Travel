@@ -55,6 +55,27 @@ width: auto;
     margin-top: 5rem; /* 80px */
     margin-bottom: 5rem;
 }
+.fixed-img {
+            width: 100%;         /* Gambar mengisi penuh lebar kartu */
+            height: 400px;        /* Atur tinggi gambar agar seragam */
+            object-fit: cover;    /* Memastikan gambar tetap proporsional dan tidak terdistorsi */
+}
+footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-secondary {
+    background-color: #6c757d; /* Atau warna lain sesuai keinginan */
+}
+
+
 
 /* Media Queries untuk Responsivitas */
 @media (max-width: 768px) {
