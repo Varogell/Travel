@@ -114,8 +114,73 @@ footer {
     }
 }
 
-.img-custom {
-    width: 400px;
-    height: 200px;
-    object-fit: cover;
+.bg-section {
+    background: linear-gradient(135deg, #48e0e0, #19eeee); /* Gradien warna biru */
+    color: white; /* Teks berwarna putih agar kontras */
 }
+
+.text-center h2 {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.text-center h5 {
+    line-height: 1.6;
+    max-width: 80%; /* Supaya tidak terlalu lebar */
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column; /* Agar lebih responsif di layar kecil */
+        height: auto;
+    }
+
+    .col-6 {
+        width: 100%; /* Set agar memenuhi lebar layar */
+        height: 50vh;
+    }
+
+    .bg-section {
+        height: 100%;
+    }
+}
+
+/* Gaya untuk Judul */
+.title {
+    font-family: 'Playfair Display', serif; /* Font dengan kesan elegan */
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}
+
+/* Gaya untuk Deskripsi */
+.description {
+    font-family: 'Poppins', sans-serif; /* Font modern dan bersih */
+    font-size: 1.2rem;
+    line-height: 1.8; /* Memberikan ruang antar baris */
+    max-width: 80%; /* Agar teks tidak terlalu lebar */
+    margin: 0 auto;
+    color: #f0f0f0; /* Warna terang agar kontras dengan background */
+    text-align: justify; /* Rata kanan-kiri untuk kesan rapi */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sedikit bayangan pada teks */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .description {
+        font-size: 1rem; /* Ukuran lebih kecil di layar sempit */
+        max-width: 90%; /* Lebar teks lebih proporsional di perangkat mobile */
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}
+
+.bg-lightblue {
+    background-color: #ADD8E6; /* atau warna biru muda lainnya */
+}
+
+
