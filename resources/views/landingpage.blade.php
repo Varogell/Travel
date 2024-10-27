@@ -171,7 +171,7 @@
     <div class="d-flex flex-column">
         <span>jsgdgaggd</span>
         <span>jsgdgaggd</span>
-    </div>
+    </div>$_COOKIE
 </div>
 
 </div>
