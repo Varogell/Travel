@@ -173,15 +173,10 @@
 <div class="col d-flex align-items-center mb-3"> 
     <i class="fa-solid fa-user-shield fa-4x me-3"></i> <!-- Icon kedua -->
     <div class="d-flex flex-column">
-<<<<<<< HEAD
-        <span>jsgdgaggd</span>
-        <span>jsgdgaggd</span>
-    </div>$_COOKIE
-=======
+
         <span><b>Asuransi</b></span>
         <span>Jaminan perjalanan yang aman dan nyaman dengan asuransi dari Zurich Indonesia.</span>
     </div>
->>>>>>> ba7ca2c0f7d16abe8a4408832653a2e36dbb51cb
 </div>
 
 </div>
@@ -263,13 +258,9 @@
     </section>
     
 
-<<<<<<< HEAD
-    <!-- Footer Section -->
-    <footer class="bg-lightblue text-black py-4">
-=======
+
 <!-- Footer Section -->
-<footer class="bg-black text-white w-100">
->>>>>>> 55cdf74986c45ad1185a80a0dac39b57fcf5d023
+<footer class="bg-black text-white w-100"> 
     <div class="container">
         <div class="row">
             <!-- About Section -->
